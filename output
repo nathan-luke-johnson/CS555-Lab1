@@ -1,0 +1,66 @@
+Script started on Thu 29 Sep 2016 07:37:36 PM PDT
+]0;johnsonn@aempi01v:~/CS455/Lab1[?1034h[johnsonn@aempi01v Lab1]$ ./hello
+Hello World from thread = 5
+Hello World from thread = 15
+Hello World from thread = 12
+Hello World from thread = 13
+Hello World from thread = 1
+Hello World from thread = 14
+Hello World from thread = 0
+Number of threads = 16
+Hello World from thread = 6
+Hello World from thread = 7
+Hello World from thread = 3
+Hello World from thread = 11
+Hello World from thread = 8
+Hello World from thread = 9
+Hello World from thread = 10
+Hello World from thread = 4
+Hello World from thread = 2
+]0;johnsonn@aempi01v:~/CS455/Lab1[johnsonn@aempi01v Lab1]$ ./PThreadDemo 
+Thread 1 
+Thread 2 
+Thread 1 returns: 0
+Thread 2 returns: 0
+]0;johnsonn@aempi01v:~/CS455/Lab1[johnsonn@aempi01v Lab1]$ mpiexec -np 8 ./MPI[K[KpiHello
+Hello World - I'm slave 1
+Hello World - I'm slave 4
+Hello World - I'm slave 5
+Hello World - I'm the master
+Hello World - I'm slave 2
+Hello World - I'm slave 3
+Hello World - I'm slave 6
+Hello World - I'm slave 7
+]0;johnsonn@aempi01v:~/CS455/Lab1[johnsonn@aempi01v Lab1]$ mpiexec -np 8 ./MpiHello[K[K[K[K[K[K[K[KHitBall
+0 Went Home
+0 to 1: dropped
+1 Went Home
+0 to 2: dropped
+0 to 2: dropped
+0 to 3: dropped
+0 to 3: dropped
+3 Went Home
+0 to 4: dropped
+0 to 4: dropped
+4 Went Home
+0 to 5: dropped
+0 to 5: dropped
+0 to 5: bobbled
+0 to 7: dropped
+0 to 7: dropped
+0 to 7: bobbled
+0 to 7: bobbled
+2 Went Home
+0 to 5: bobbled
+0 to 6: dropped
+6 Went Home
+0 to 7: dropped
+7 Went Home
+0 to 5: dropped
+0 to 5: caught
+0 to 5: dropped
+5 Went Home
+]0;johnsonn@aempi01v:~/CS455/Lab1[johnsonn@aempi01v Lab1]$ exit
+exit
+
+Script done on Thu 29 Sep 2016 07:38:59 PM PDT
